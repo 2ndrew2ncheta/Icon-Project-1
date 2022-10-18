@@ -24,6 +24,9 @@ img.icon{
 	
 
 }
+h4{
+	text-align: center;
+}
 #Byline{
 	font-family:Georgia;
 	font-size: 12px;
@@ -33,9 +36,10 @@ img.icon{
 	font-size: 12px;
 }
 img{
-	max-width: 150%;
+	display: block;
+	max-width: 130%;
 	margin: auto;
-	position: center;
+
 }
 .box{
 	max-width: device-width;
@@ -44,7 +48,7 @@ img{
 	background-color: seashell;
 }
 .box.photo{
-	padding: 10px;
+	padding: auto;
 	max-width: device-width;
 }
 /*these are the small boxes where icons live*/
@@ -59,13 +63,20 @@ figure {
     background-color: floralwhite;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 20px ;
-    margin-right: 20px ;
+    align-content: left;
+    margin-left: 0px ;
+    margin-right: 0px ;
     padding-bottom: 5px;
     max-width: 75%;
-    padding-right: 15px;
-    padding-left: 15px;
-    position: center;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    
+
+	max-width: device-width;
+	margin: 10px;	
+	padding: 10px;
+	background-color: seashell;
 
 }
 figcaption {
@@ -75,14 +86,45 @@ figcaption {
 }
 
 
-h4{
-text-align: center;
-}
-/*Time for some tablet/desktop styles*/
+
+/*Tablet Style!*/
 @media(min-width: 681px) {
     
-    /*ADD HERE*/
+.littlebox{
+	
+	max-width: 150px;
+	margin: 10px;	
+	padding: 10px;
+	background-color: lavender;
+}
+img.icon{
+	display: block;
+	/*min-width: 150px;
+	max-width: 50%;*/
+	max-width: 120px;
+	position: center;
 
+}
+img{
+	max-width: device-width;
+}
+    /*ADD HERE*/
+   div.flex{
+        display: flex;
+        justify-content: space-between;
+        background-color: floralwhite;
+        margin: 10px;
+    }
+
+.flex>div{
+    flex-basis: 50%;
+}
+}
+img.icon{
+	display: block;
+	min-width: 120px;
+	max-width: 25%;
+}
 }
 @media(min-width: 780px) {
 
@@ -98,7 +140,7 @@ img{
     }
 
 .flex>div{
-    flex-basis: 25%;
+    flex-basis: 33%;
 }
 }
 img.icon{
