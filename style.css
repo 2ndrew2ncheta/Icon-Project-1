@@ -26,6 +26,14 @@ img.icon{
 	
 
 }
+footer{
+	justify-content: space-evenly;
+}
+/*these contain the citations*/
+.footerbox
+{margin: auto;
+padding: auto;
+}
 h4{
 	text-align: center;
 }
@@ -149,7 +157,7 @@ img{
     }
 
 .flex>div{
-    flex-basis: 33%;
+    flex-basis: 50%;
 }
 }
 img.icon{
