@@ -39,12 +39,12 @@ img{
 }
 .box{
 	max-width: device-width;
-	margin: 10;	
+	margin: 10px;	
 	padding: 10px;
 	background-color: seashell;
 }
 .box.photo{
-	padding: 10;
+	padding: 10px;
 	max-width: device-width;
 }
 /*these are the small boxes where icons live*/
