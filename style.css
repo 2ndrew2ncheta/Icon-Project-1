@@ -1,6 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 /* Sets the browser at a uniform style*/
 
+
 *{box-sizing: border-box;
 }
 /* Give our boxes a uniform size*/
@@ -8,6 +9,7 @@ body,html{
 	font-size: 14px;
 	font-family: "Georgia",sans-serif;
 }
+
 /* Nice basic font*/
 
 body{
@@ -19,7 +21,7 @@ img.icon{
 	display: block;
 	/*min-width: 150px;
 	max-width: 50%;*/
-	min-width: 130px;
+	min-width: 150px;
 	position: center;
 	
 
@@ -37,7 +39,7 @@ h4{
 }
 img{
 	display: block;
-	max-width: 140%;
+	max-width: 130%;
 	margin: auto;
 
 }
@@ -59,7 +61,8 @@ img{
 	padding: 10px;
 	background-color: lavender;
 }
-figure {
+
+figure{
     background-color: floralwhite;
     margin-top: 0;
     margin-bottom: 0;
@@ -73,6 +76,11 @@ figure {
 
     
 
+	/*max-width: device-width;
+	margin: 10px;	
+	padding: 10px;
+	background-color: seashell;*/
+
 }
 figcaption {
     margin: 0;
@@ -80,9 +88,15 @@ figcaption {
     color: 3333;
 }
 
+@media(max-width: 681px){
 
+.figure{
+	max-width: 75%;
+}
 
-/*Tablet Style!*/
+}
+
+/*Tablet Style!
 @media(min-width: 681px) {
     
 .littlebox{
@@ -95,7 +109,7 @@ figcaption {
 img.icon{
 	display: block;
 	/*min-width: 150px;
-	max-width: 50%;*/
+	max-width: 50%;
 	max-width: 120px;
 	position: center;
 
@@ -103,7 +117,6 @@ img.icon{
 img{
 	max-width: device-width;
 }
-    /*ADD HERE*/
    div.flex{
         display: flex;
         justify-content: space-between;
@@ -120,7 +133,8 @@ img.icon{
 	min-width: 120px;
 	max-width: 25%;
 }
-}
+}*/
+/*Desktop Style!*/
 @media(min-width: 780px) {
 
 img{
