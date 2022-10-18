@@ -11,26 +11,17 @@ body,html{
 /* Nice basic font*/
 
 body{
-	background-color: navajowhite;
+	background-color: antiquewhite;
 	margin: 15px;
 }
 /*set some pleasantly off-white colors for background*/
 img.icon{
 	display: block;
-	/*min-width: 150px;
-	max-width: 50%;*/
-	min-width: 150px;
+	max-width: 50%;
+	min-width: 200px;
 	position: center;
-	
+	margin: auto;
 
-}
-#Byline{
-	font-family:Georgia;
-	font-size: 12px;
-}
-#Dateline{
-	font-family: Georgia;
-	font-size: 12px;
 }
 img{
 	max-width: 150%;
@@ -39,9 +30,9 @@ img{
 }
 .box{
 	max-width: device-width;
-	margin: 10;	
-	padding: 10px;
-	background-color: seashell;
+	margin: 10px;	
+	padding: 20px;
+	background-color: floralwhite;
 }
 .box.photo{
 	padding: 10;
@@ -49,11 +40,11 @@ img{
 }
 /*these are the small boxes where icons live*/
 .littlebox{
-	
+	width=100%;
 	max-width: 1000px;
-	margin: 10px;	
+	margin: 0 auto;	
 	padding: 10px;
-	background-color: lavender;
+	background-color: papayawhip;
 }
 figure {
     background-color: floralwhite;
@@ -62,10 +53,8 @@ figure {
     margin-left: 20px ;
     margin-right: 20px ;
     padding-bottom: 5px;
-    max-width: 75%;
     padding-right: 20px;
     padding-left: 20px;
-    position: center;
 
 }
 figcaption {
@@ -98,12 +87,12 @@ img{
     }
 
 .flex>div{
-    flex-basis: 25%;
+    flex-basis: 50%;
 }
 }
 img.icon{
 	display: block;
 	min-width: 150px;
-	max-width: 25%;
+	max-width: 50%;*/
 
 }
